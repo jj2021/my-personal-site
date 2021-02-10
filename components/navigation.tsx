@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import navStyle from '../styles/navigation.module.css'
 // make the navigation bar like a text editor
 // files in different tabs
@@ -7,7 +8,12 @@ export default function Navigation() {
   return(
     <div className={`${navStyle.navigation}`}>
       <div className={`${navStyle.container} ${navStyle.flex}`}>
-        <h1>JJDev</h1>
+        <Image
+          src='/JJDev-logo.png'
+          alt='JJDev logo'
+          width={80}
+          height={80}
+        />
         <nav>
           <ul className={navStyle.linksList}>
             <li><Link href='/'><a>About Me</a></Link></li>
