@@ -29,8 +29,7 @@ export default function Home() {
             Other than programming personal projects in my free time, I love to read 
             self improvement books such as <i>Soft Skills: The Software Developer's
             Life Manual</i> and <i>The Seven Habits of Highly Effective People</i>.
-            I also enjoy practicing martial arts, teaching myself guitar, and playing
-            videogames with my friends and family.
+            I also enjoy practicing martial arts and teaching myself guitar.
           </p>
         </div>
       </main>
