@@ -15,13 +15,14 @@
 .experience {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 10px;
-  width: 50%;
+  width: 80%;
 }
 
 .exp_descrip {
+  width: 100%;
 }
 
 .exp_title {
