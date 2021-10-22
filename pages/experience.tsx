@@ -29,20 +29,20 @@ export default function Experience() {
               <li>
                 Developed a web-based, self-service ticketing application 
                 allowing users to manage their passwords and user IDs for 
-                personal and functional accounts on UNIX systems
+                personal and functional accounts on UNIX systems.
                 <p>Technologies: HTML, CSS, Javascript, PHP, LDAP</p>
               </li>
               <li>
                 Developed a web application for recording and displaying
                 historical data of incoming and outgoing hardware, allowing 
                 data center administrators to quickly audit the status of
-                newly purchased and decommissioned hardware
+                newly purchased and decommissioned hardware.
                 <p>Technologies: HTML, CSS, Javascript, Golang, PostgreSQL</p>
               </li>
               <li>
-                Designed a system for aggregating various data points about 
-                data center operations, setting the stage to create more
-                informed automation processes in the data center
+                Designed a system for aggregating data about 
+                data center operations, setting the stage to create
+                informed automation in the data center.
                 <p>Technologies: Ansible, Elastic stack, Icinga (Nagios), MQTT</p>
               </li>
             </ul>
