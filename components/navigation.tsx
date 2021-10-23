@@ -18,6 +18,7 @@ export default function Navigation() {
           <ul className={navStyle.linksList}>
             <li><Link href='/'><a>About</a></Link></li>
             <li><Link href='/experience'><a>Experience</a></Link></li>
+            <li><Link href='/blog'><a>Blog</a></Link></li>
           </ul>
         </nav>
       </div>
