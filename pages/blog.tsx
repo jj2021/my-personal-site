@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styles from '../styles/blog.module.css'
 import Navigation from '../components/navigation'
 
 export default function Blog() {
@@ -11,7 +12,7 @@ export default function Blog() {
 
       <Navigation/>
 
-      <main>
+      <main className={styles.main}>
         <h1>
           Welcome to the blog!
         </h1>
