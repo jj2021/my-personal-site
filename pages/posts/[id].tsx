@@ -2,13 +2,14 @@ import { GetStaticProps, GetStaticPaths } from 'next'
 import { getAllPostIds, getPostData, getSortedPostsData } from '../../lib/posts'
 import Head from 'next/head'
 import Navigation from '../../components/navigation'
+import Date from '../../components/date'
 import styles from '../../styles/post.module.css'
 
 export default function Post({ postData }) {
   return(
     <div>
       <Head>
-        <title>JJDev</title>
+        <title>{postData.title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -20,7 +21,7 @@ export default function Post({ postData }) {
         </h1>
         <div>
             <h3>{postData.id}</h3>
-            <h3>{postData.date}</h3>
+            <h3><Date dateString={postData.date}/></h3>
         </div>
         <div className={styles.article} dangerouslySetInnerHTML={{ __html: postData.contentHtml }}/>
       </main>
